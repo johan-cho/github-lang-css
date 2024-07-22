@@ -50,6 +50,15 @@ async function main() {
       .join("")
   );
   fs.writeFileSync("langs.json", JSON.stringify(langColors));
+  fs.writeFileSync(
+    "raw_langs.json",
+    JSON.stringify(
+      Object.keys(langs).reduce((acc, val) => {
+        acc[val] = langs[val].color;
+        return acc;
+      }, {})
+    )
+  );
 }
 
 main();

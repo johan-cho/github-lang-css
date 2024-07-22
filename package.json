@@ -1,7 +1,7 @@
 {
   "name": "github-lang-css",
   "version": "1.0.0",
-  "description": "github language colors in css",
+  "description": "github language colors in css and json",
   "main": "index.css",
   "scripts": {
     "build": "node build.js",
