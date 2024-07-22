@@ -40,11 +40,10 @@ const digitToWord = [
 const langFromGithub = "...";
 
 const cssClass = langFromGithub
-    .replace("+", "p")
-    .replace("#", "-Sharp")
+    .replaceAll("+", "P")
+    .replaceAll("#", "-Sharp")
     .replace(/\s/g, "-")
-    .replace(".", "-")
+    .replaceAll(".", "-")
     .replace(/["'()]/g, "")
     .replace(/^\d/, (match) => digitToWord[match]);
-
 ```

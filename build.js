@@ -26,10 +26,10 @@ async function main() {
   const langColors = Object.keys(langs).reduce((acc, val) => {
     acc[
       val
-        .replace("+", "p")
-        .replace("#", "-Sharp")
+        .replaceAll("+", "P")
+        .replaceAll("#", "-Sharp")
         .replace(/\s/g, "-")
-        .replace(".", "-")
+        .replaceAll(".", "-")
         .replace(/["'()]/g, "")
         .replace(/^\d/, (match) => digitToWord[match])
     ] = langs[val].color;
