@@ -1,0 +1,31 @@
+{
+  "name": "github-lang-css",
+  "version": "1.0.0",
+  "description": "github language colors in css",
+  "main": "index.css",
+  "scripts": {
+    "build": "node build.js",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johan-cho/github-lang-css"
+  },
+  "homepage": "https://github.com/johan-cho/github-lang-css",
+  "keywords": [
+    "css",
+    "github",
+    "language",
+    "language",
+    "color",
+    "github",
+    "language",
+    "colors"
+  ],
+  "author": "johan cho",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "js-yaml": "^4.1.0"
+  }
+}
