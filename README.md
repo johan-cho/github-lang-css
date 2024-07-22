@@ -2,6 +2,8 @@
 
 dynamically generated css package for github language colors, updated every time when `npm run build` is executed.
 
+can also be npm installed.
+
 ## cdn
 
 ```html
